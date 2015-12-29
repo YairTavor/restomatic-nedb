@@ -1,0 +1,26 @@
+{
+  "name": "restomatic-nedb",
+  "version": "1.0.0",
+  "description": "Restomatic DB adapter for NeDB",
+  "main": "nedb-adapter.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YairTavor/restomatic-nedb.git"
+  },
+  "author": "Yair Tavor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YairTavor/restomatic-nedb/issues"
+  },
+  "homepage": "https://github.com/YairTavor/restomatic-nedb#readme",
+  "dependencies": {
+    "nedb": "^1.5.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
