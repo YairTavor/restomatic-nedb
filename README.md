@@ -15,13 +15,12 @@
 When using restomatic, you will need to require the NeDB adapter like this:
 
 ```javascript
-    var restomatic = require('restomatic');
-
-    // set NeDB as your restomatic db
-    require('restomatic-nedb-adapter')(restomatic);
+    var restomatic = require('restomatic'),
+        // set NeDB as your restomatic db
+        db = require('restomatic-nedb-adapter')(restomatic);
 
     // configure the path of the db files (optional)
-    restomatic.server.db.options.dbFolder = 'path/to/db/folder';
+    db.options.dbFolder = 'path/to/db/folder';
 
     // fire up restomatic
     restomatic.start();

@@ -1,5 +1,5 @@
 {
-  "name": "restomatic-nedb",
+  "name": "restomatic-nedb-adapter",
   "version": "1.0.0",
   "description": "Restomatic DB adapter for NeDB",
   "main": "nedb-adapter.js",
